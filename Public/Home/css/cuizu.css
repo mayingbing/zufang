@@ -1,0 +1,125 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+html{
+    font-size: 45px;
+
+}
+#content{
+    text-align: center;
+}
+a{
+    text-decoration:none;
+}
+p{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    font-size: 0.33rem;
+    margin-bottom:2px;
+    margin-top:2px;
+    color: #575757;
+}
+.show{
+    width: 100%;
+}
+.top{
+    position: relative;
+    width: 100%;
+    height: 1rem;
+    background: #049ff1;
+    line-height: 1rem;
+    color: white;
+    text-align:center;
+}
+.top>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0 ;
+    line-height: 1rem;
+    font-size: 0.35rem;
+    color: white;
+}
+.top>div:nth-child(2){
+    float: left;
+    position: relative;
+    left: 30%;
+    line-height: 1rem;
+    color: white;
+    font-size: 0.45rem;
+}
+.top>div:last-child{
+    float: right;
+    margin: 0rem 0.2rem 0 ;
+    line-height: 1rem;
+    font-size: 0.35rem;
+    color: white;
+}
+
+.middle{
+    width: 100%;
+    border: 0;
+    mso-cellspacing: 0;
+    border-collapse:collapse;
+}
+.middle tr{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    border: 0.1px solid#D8E5F2 ;
+    background-color: white;
+    height: 1rem;
+    line-height: 1rem;
+    border-left: none;
+    border-right: none;
+
+}
+.middle tr td:first-child{
+    float: left;
+    margin-left: 0.2rem;
+    line-height: 1rem;
+    font-size: 0.35rem;
+    color: grey;
+}
+.middle tr td:last-child{
+    float: right;
+    margin-right: 0.2rem;
+    line-height: 1rem;
+    font-size: 0.25rem;
+    color: grey;
+}
+
+#duanxin{
+    float: right;
+    margin-right: 0.2rem;
+    line-height: 1rem;
+    font-size: 0.25rem;
+    color: grey;
+}
+.place{
+    width: 100%;
+    height: 0.3rem;
+    background: #fafafa ;
+}
+
+#message{
+    width: 80%;
+    font-size: 0.25rem;
+    color: grey;
+    float: left;
+    margin-left: 1rem;
+}

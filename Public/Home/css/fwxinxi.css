@@ -1,0 +1,200 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+html{
+    font-size: 45px;
+}
+.top{
+    height: 1.2rem;
+    width: 100%;
+    background:#049ff1 ;
+    /*margin-top: 0.5rem;*/
+    text-align: center;
+    /*vertical-align: middle;*/
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    color: white;
+    font-size: 0.6rem;
+    line-height: 1.2rem;
+}
+
+.search {
+    border: 1px solid grey;
+    padding: 0 0 0 2%;
+    width: 80%;
+    height: 1rem;
+    border-radius: 10px;
+    margin: 0.2rem auto;
+    line-height: 0.8rem;
+    background-color: white;
+}
+.search tr td img{
+    float: left;
+    margin-top: 0.2rem;
+    margin-right: 2px;
+    width: 0.4rem;
+
+
+}
+.search tr td input[type=text] {
+    width: 90%;
+    height: 0.8rem;
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 0.4rem;
+    vertical-align: middle;
+    float: left;
+    /*line-height: 1.5rem;*/
+}
+
+.tiaojian{
+    width: 100%;
+    height: 1rem;
+    /*background-color: #9d9d9d;*/
+
+}
+
+.tiaojian  select{
+    width: 100%;
+    height: 0.6rem;
+    border-left: none;
+    border: 0.3px solid#F6F6F6 ;
+    outline: none;
+}
+option{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    font-size: 0.33rem;
+    margin-bottom:2px;
+    margin-top:2px;
+    color: #575757;
+}
+
+.listhead{
+    width: 100%;
+    height: 0.8rem;
+    margin: 0 0.2rem 0;
+    margin:0 auto;
+    font-size: 0.35rem;
+    color: #9d9d9d;
+    background-color: #F6F6F6;
+    line-height: 0.8rem;
+    border: 1px solid#9d9d9d;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+.jump{
+    width: 100%;
+    margin-top: 0;
+}
+.jump ul{
+    padding:0;
+    list-style: none;
+}
+.jump ul li{
+    list-style: none;
+}
+
+
+.querytitle{
+    width: 100%;
+    background: #F6F6F6;
+    border-bottom: 1px solid #f3f3f3;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.35rem;
+    margin: 0 auto;
+}
+.toolleft{
+    float: left;
+    width: 75%;
+    margin-left: 0.2rem;
+}
+
+.toolright{
+    float: right;
+    width: 15%;
+    color: green;
+}
+
+p{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    font-size: 0.33rem;
+    margin-bottom:2px;
+    margin-top:2px;
+    color: #575757;
+}
+/*.show{*/
+    /*width: 100%;*/
+/*}*/
+.show_tool_head{
+    text-align: left;
+    height: 0.6rem;
+    background:white ;
+    width: 100%;
+    margin-top: 0.1rem;
+
+    /*font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';*/
+    color: #999999;
+    font-size: 0.3rem;
+}
+/*.house_list{*/
+    /*width: 100%;*/
+    /*height: 2rem;*/
+    /*border: 1px solid#D3D3D3 ;*/
+    /*border-left: none;*/
+    /*border-right: none;*/
+
+/*}*/
+/*.house_list td{*/
+    /*width: 33%;*/
+    /*text-align: left;*/
+/*}*/
+.liebiao{
+    width: 100%;
+    height: 1rem;
+    border: 1px solid#D3D3D3 ;
+    background: #F8F8FF;
+    border-left: none;
+    border-right: none;
+}
+#t1{
+    height: 1.4rem;
+}
+a{
+    text-decoration:none;
+}
+.clear {
+    clear: both;
+}
+.leibiao td{
+    width: 30%;
+
+}
+#t1 img{
+    float: right;
+    width: 0.5rem;
+    height: 0.5rem;
+
+}

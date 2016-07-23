@@ -45,7 +45,7 @@
             </a>
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
+
             <div class="querytitle">
                 <div class="toolleft">
                     面积
@@ -57,10 +57,10 @@
                     平米
                 </div>
             </div>
-            <!--</a>-->
+
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
+
             <div class="querytitle">
                 <div class="toolleft">
                     租金
@@ -72,11 +72,10 @@
                     元
                 </div>
             </div>
-            <!--</a>-->
 
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
+            <a style=" text-decoration:none; color:#9d9d9d" href="#">
             <div class="querytitle">
                 <div class="toolleft">
                     押付方式
@@ -88,14 +87,14 @@
                     >
                 </div>
             </div>
-            <!--</a>-->
+            </a>
 
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
+            <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwpeizi");?>">
             <div class="querytitle">
                 <div class="toolleft">
-                    租金
+                    房屋配置
                 </div>
                 <div class="toolmiddle">
                     冰箱，空调，洗衣机
@@ -104,7 +103,7 @@
                     >
                 </div>
             </div>
-            <!--</a>-->
+            </a>
 
         </li>
 

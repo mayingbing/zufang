@@ -45,7 +45,10 @@ class FangdongController extends Controller {
         $this->display();
     }
     public function huxing(){
-            $this->display();
+        $this->display();
+    }
+    public function fwpeizi(){
+        $this->display();
     }
 
 

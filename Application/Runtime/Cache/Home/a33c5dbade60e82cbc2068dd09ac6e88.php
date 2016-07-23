@@ -1,0 +1,90 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>租客信息</title>
+    <meta name="viewport"
+          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
+    <meta http-equiv="Content-Type"  charset=utf-8" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/zkxinxi.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+
+<header >
+    <div class="rt-bk">
+        <i class="bk"></i>
+        <a href="fangtai.html"><p>返回</p></a>
+    </div>
+    <div class="top-name"><p>租客信息</p></div>
+    <div class="top-ok"><p>保存</p></div>
+</header>
+
+                                        <form>
+                                            <div class="search">
+
+                                                <img  />
+                                                <div><input  type="text" placeholder="搜索"/></div>
+
+                                            </div>
+
+                                        </form>
+
+    <div class="listhead">
+        <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
+            <li>
+                <div class="querytitle">
+                    <div class="toolleft1">
+                        房间号
+                    </div>
+                    <div class="toolleft2">
+                        姓名
+                    </div>
+                     <div class="toolmoddle">
+                        押金
+                    </div>
+
+                    <div class="toolright1">
+                        手机号
+                    </div>
+
+                    <div class="toolright2">
+
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="jumplist">
+        <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
+
+            <li>
+                <div class="querytitle">
+                    <div class="toolleft1">
+                        1001
+                    </div>
+                    <div class="toolleft2">
+                        张三三
+                    </div>
+                    <div class="toolmoddle">
+                        2000
+                    </div>
+
+                    <div class="toolright1">
+                        13001018888
+                    </div>
+
+                    <div class="toolright2">
+                        >
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+</html>

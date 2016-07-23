@@ -50,6 +50,9 @@ class FangdongController extends Controller {
     public function fwpeizi(){
         $this->display();
     }
+    public function zkxinxi(){
+            $this->display();
+    }
 
 
 

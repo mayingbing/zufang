@@ -52,7 +52,7 @@
                     </div>
                 </div>
         </a>
-        <a href="<?php echo U("fwxinxi");?>">
+        <a href="<?php echo U("zkxinxi");?>">
                 <div class="cuizu">
                     <div>
                         <p>0</p>

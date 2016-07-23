@@ -111,7 +111,23 @@
             </div>
             <!--</a>-->
 
-        </li>
+            </li>
+            <li>
+            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
+            <div class="querytitle">
+                <div class="toolleft">
+                    租客
+                </div>
+                <div class="toolmiddle">
+                    张三
+                </div>
+                <div class="toolright">
+
+                </div>
+            </div>
+            <!--</a>-->
+
+            </li>
 
     </ul>
 </div>

@@ -6,35 +6,30 @@
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
     <link href="__PUBLIC__/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
-    <link href="__PUBLIC__/Home/css/fwxiangqing.css" rel="stylesheet" type="text/css" />
-
+    <link href="__PUBLIC__/Home/css/edit_fwxq.css" rel="stylesheet" type="text/css" />
 </head>
-
 <body id="content">
-
-
 <header>
     <div class="rt-bk">
         <!--<i class="bk"></i>-->
-       <a href="{:U("edit_fwxq")}">
-           <p>编辑</p>
+       <a href="{:U("fwxiangqing")}">
+           <p>取消</p>
        </a>
     </div>
     <div class="top-name"><p>房屋详情</p></div>
-    <div class="top-ok"><p>出租</p></div>
+    <div class="top-ok"><p>保存</p></div>
 </header>
 
 <div class="room_num">
     <div >房间编号</div>
     <div>1001</div>
-
 </div>
 <div class="clear"></div>
-
+<form action="{:U("fd_shouye")}" method="post">
 <div class="jumplist">
     <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwxiangqing")}">-->
+            <a style=" text-decoration:none; color:#9d9d9d" href="{:U("huxing")}">
             <div class="querytitle">
                 <div class="toolleft">
                     户型
@@ -47,41 +42,40 @@
                 </div>
 
             </div>
-            <!--</a>-->
+            </a>
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwxiangqing")}">-->
+
             <div class="querytitle">
                 <div class="toolleft">
                     面积
                 </div>
                 <div class="toolmiddle">
-                    20
+                    <input class="input_xm" type="text" placeholder="请填写面积"/>
                 </div>
                 <div class="toolright">
                     平米
                 </div>
             </div>
-            <!--</a>-->
+
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwxiangqing")}">-->
+
             <div class="querytitle">
                 <div class="toolleft">
                     租金
                 </div>
                 <div class="toolmiddle">
-                    2000
+                    <input class="input_xm" type="text" placeholder="请填写租金"/>
                 </div>
                 <div class="toolright">
                     元
                 </div>
             </div>
-            <!--</a>-->
 
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwxiangqing")}">-->
+            <a style=" text-decoration:none; color:#9d9d9d" href="{:U("yafufangshi")}">
             <div class="querytitle">
                 <div class="toolleft">
                     押付方式
@@ -90,14 +84,14 @@
                     押1付1
                 </div>
                 <div class="toolright">
-
+                    >
                 </div>
             </div>
-            <!--</a>-->
+            </a>
 
         </li>
         <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwxiangqing")}">-->
+            <a style=" text-decoration:none; color:#9d9d9d" href="{:U("fwpeizi")}">
             <div class="querytitle">
                 <div class="toolleft">
                     租金
@@ -106,15 +100,16 @@
                     冰箱，空调，洗衣机
                 </div>
                 <div class="toolright">
-
+                    >
                 </div>
             </div>
-            <!--</a>-->
+            </a>
 
         </li>
 
     </ul>
 </div>
-
+    <input class="subbtn" type="submit" value="提交"/>
+</form>
 </body>
 </html>

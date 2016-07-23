@@ -5,21 +5,32 @@
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
-    <link href="__PUBLIC__/Home/css/center_gy.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Home/css/edit_price.css" rel="stylesheet" type="text/css" />
+    <link href="__PUBLIC__/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
 
-    <div class="top">租金</div>
+<header>
+    <div class="rt-bk">
+        <i class="bk"></i>
+        <a href="fyxq.html"><p>返回</p></a>
+    </div>
+    <div class="top-name"><p>租金</p></div>
+    <div class="top-ok">
+        <p>完成</p>
+    </div>
+</header>
 
 
-<form method="post" action="{:U("zjxq")}">
+
+<form method="post" action="{:U("fyxq")}">
     <div>
         <div class="querytitle">
 
             <div class="toolleft">
-                <input class="name" type="text" placeholder="请填写租金"/>
+                <input class="input_xm" type="text" placeholder="请填写租金"/>
             </div>
             <div class="toolright">
                 元/月

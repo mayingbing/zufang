@@ -23,55 +23,57 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
 html{
     font-size: 45px;
 }
-.top{
-    height: 1.2rem;
-    width: 100%;
-    background:#049ff1 ;
-    /*margin-top: 0.5rem;*/
-    text-align: center;
-    /*vertical-align: middle;*/
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
-    color: white;
-    font-size: 0.6rem;
-    line-height: 1.2rem;
-}
+
 
 .search {
-    border: 1px solid grey;
-    padding: 0 0 0 2%;
+    border: 1px solid #999999;
     width: 80%;
-    height: 1rem;
+    height: 0.9rem;
     border-radius: 10px;
-    margin: 0.2rem auto;
-    line-height: 0.8rem;
     background-color: white;
+    position:relative; top:0.27rem; left:10%; float:left;
+    margin-bottom: 0.3rem;
 }
-.search tr td img{
-    float: left;
-    margin-top: 0.2rem;
-    margin-right: 2px;
-    width: 0.4rem;
-
-
+.search img{
+display: block; margin:0.3rem 0.25rem 0 0.25rem; float:left; width: 0.35rem; height: 0.35rem; background: url(../images/search.png) no-repeat; background-size: cover;
 }
-.search tr td input[type=text] {
-    width: 90%;
-    height: 0.8rem;
+.search input[type=text] {
+    width: 70%;
+    height: 0.9rem;
     margin: 0 auto;
     padding: 0;
     border: 0;
     outline: 0;
     font-size: 0.4rem;
-    vertical-align: middle;
     float: left;
-    /*line-height: 1.5rem;*/
+    line-height: 0.8rem;
+    background:white;
 }
+
+.search input::-webkit-input-placeholder { /* WebKit browsers */
+    color:grey;
+    /*background:lightgreen;*/
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size: 0.3rem;
+}
+.search input::-moz-placeholder {
+    color:grey;
+    /*background:lightgreen;*/
+    text-transform:uppercase;
+    letter-spacing:1px;
+    font-size: 0.3rem;
+}
+
 
 .tiaojian{
     width: 100%;
     height: 1rem;
     /*background-color: #9d9d9d;*/
 
+}
+.tiaojian td{
+    width: 33%;
 }
 
 .tiaojian  select{
@@ -80,6 +82,7 @@ html{
     border-left: none;
     border: 0.3px solid#F6F6F6 ;
     outline: none;
+    text-align: center;
 }
 option{
     font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
@@ -104,16 +107,19 @@ option{
     border-top: none;
 }
 
-.jump{
+.jumplist{
     width: 100%;
     margin-top: 0;
 }
-.jump ul{
+.jumplist ul{
     padding:0;
     list-style: none;
+    /*border-collapse:collapse;*/
 }
-.jump ul li{
+.jumplist ul li{
     list-style: none;
+    border: 1px solid #999999;
+    border-top: none;
 }
 
 
@@ -138,63 +144,9 @@ option{
     color: green;
 }
 
-p{
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
-    font-size: 0.33rem;
-    margin-bottom:2px;
-    margin-top:2px;
-    color: #575757;
-}
-/*.show{*/
-    /*width: 100%;*/
-/*}*/
-.show_tool_head{
-    text-align: left;
-    height: 0.6rem;
-    background:white ;
-    width: 100%;
-    margin-top: 0.1rem;
-
-    /*font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';*/
-    color: #999999;
-    font-size: 0.3rem;
-}
-/*.house_list{*/
-    /*width: 100%;*/
-    /*height: 2rem;*/
-    /*border: 1px solid#D3D3D3 ;*/
-    /*border-left: none;*/
-    /*border-right: none;*/
-
-/*}*/
-/*.house_list td{*/
-    /*width: 33%;*/
-    /*text-align: left;*/
-/*}*/
-.liebiao{
-    width: 100%;
-    height: 1rem;
-    border: 1px solid#D3D3D3 ;
-    background: #F8F8FF;
-    border-left: none;
-    border-right: none;
-}
-#t1{
-    height: 1.4rem;
-}
 a{
     text-decoration:none;
 }
 .clear {
     clear: both;
-}
-.leibiao td{
-    width: 30%;
-
-}
-#t1 img{
-    float: right;
-    width: 0.5rem;
-    height: 0.5rem;
-
 }

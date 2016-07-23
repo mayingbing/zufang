@@ -6,16 +6,23 @@
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
     <link href="/Public/Home/css/cuizu.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body  id="content">
 
-    <div class="top">
-        <div><a style=" text-decoration:none; color:white" href="index.html">取消</a></div>
-        <div>催租</div>
-        <div>发送</div>
+<header>
+    <div class="rt-bk">
+        <i class="bk"></i>
+        <a href="fd_shouye.html"><p>返回</p></a>
     </div>
+    <div class="top-name"><p>催租</p></div>
+    <div class="top-ok">
+        <p>发送</p>
+    </div>
+</header>
+
     <div>
 
        <table class="middle">

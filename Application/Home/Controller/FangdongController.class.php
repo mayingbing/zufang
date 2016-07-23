@@ -3,6 +3,13 @@ namespace Home\Controller;
 use Think\Controller;
 class FangdongController extends Controller {
     public function index(){
+
+    }
+    public function footer(){
+        $this->display();
+    }
+
+    public function fd_shouye(){
        $this->display();
     }
     public function demo(){
@@ -12,7 +19,7 @@ class FangdongController extends Controller {
     public function shouzu(){
        $this->display();
     }
-     public function zjxq(){
+     public function fyxq(){
        $this->display();
     }
     public function edit_price(){
@@ -33,6 +40,12 @@ class FangdongController extends Controller {
     }
     public function fwxiangqing(){
         $this->display();
+    }
+    public function edit_fwxq(){
+        $this->display();
+    }
+    public function huxing(){
+            $this->display();
     }
 
 

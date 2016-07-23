@@ -1,12 +1,14 @@
-<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<?php if (!defined('THINK_PATH')) exit();?><!doctype html>
+<html>
 <head>
     <title>首页</title>
-    <meta name="viewport"
-          content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
-    <meta http-equiv="Content-Type"  charset=utf-8" />
-    <link href="/Public/Home/css/fd_shouye.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1.0" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/fd_shouye.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
@@ -34,7 +36,7 @@
         </a>
         <div>
             <a  href="<?php echo U("cuizu");?>">
-                <div class="cuizu zhangdan">
+                <div class="cuizu">
                     <img src="/Public/Home/images/fangdong/cuizu.jpg">
                     <div>
                         <p>催租</p>
@@ -43,7 +45,7 @@
                 </div>
             </a>
             <a href="<?php echo U("fddai");?>">
-                <div class="cuizu zhangdan">
+                <div class="cuizu">
                     <img src="/Public/Home/images/fangdong/fdd.jpg">
                     <div>
                         <p>房东贷</p>

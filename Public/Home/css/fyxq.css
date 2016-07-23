@@ -1,0 +1,168 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+
+a{
+    text-decoration:none;
+}
+
+.gongyu{
+    background: #3FB5F3   ;
+    /*border-radius: 5px;*/
+    width: 100%;
+    margin: -1px auto;
+    color: white;
+}
+.gongyu>div:first-child{
+
+    border-radius: 5px;
+    margin: 1px;
+    height: 1.6rem;
+    position: relative;
+}
+.total{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    line-height: 0.8rem;
+    border: 1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+}
+.total>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: gray;
+    font-size: 0.3rem;
+}
+.total>div:last-child{
+    float: right;
+    margin: 0rem 0.2rem 0 ;
+    color: red;
+    font-size: 0.3rem;
+}
+.place{
+    width: 100%;
+    height: 0.3rem;
+    background: #FAFAFA ;
+}
+.list{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    line-height: 0.8rem;
+    /*margin-top: 0.5rem;*/
+    border: 0.1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+}
+.list>div:first-child{
+    float: left;
+    /*width: 69%;*/
+    margin: 0rem 0.2rem 0;
+    color: gray;
+    font-size: 0.3rem;
+}
+.list>div:last-child{
+    float: right;
+    /*width: 29%;*/
+    margin: 0rem 0.2rem 0 ;
+    color: gray;
+    font-size: 0.3rem;
+    border: 0.1px solid#D3D3D3 ;
+    /*border-left: none;*/
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+.acount_date{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    line-height: 0.8rem;
+    border: 0.1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.acount_date>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: gray;
+    font-size: 0.3rem;
+}
+.acount_date>div:last-child{
+    float: left;
+    margin: 0rem 0.2rem 0 ;
+    color: orange;
+    font-size: 0.3rem;
+}
+
+.liebiao{
+    width: 100%;
+    height: 1rem;
+    border: 1px solid#D3D3D3 ;
+    background: white;
+    border-left: none;
+    border-right: none;
+}
+
+.t1 td input{
+    float: left;
+    margin: 0 0.1rem 0 ;
+}
+#td1>{
+    float: left;
+    margin: 0rem 0.2rem 0;
+
+}
+#td1>p:first-child{
+    color: #808080 ;
+    font-size: 0.3rem;
+}
+#td1>label{
+
+    /*color: gray;*/
+    /*font-size: 0.4rem;*/
+    color: #808080  ;
+    font-size: 0.2rem;
+}
+#td2>div{
+    float: right;
+    margin: 0 0.1rem 0 ;
+    color: gray;
+    font-size: 0.4rem;
+}
+
+
+.centertxt{
+    float: left;
+    margin: 0.3rem 0.2rem 0;
+}
+.centertxt>p:first-child{
+    font-size: 0.3rem;
+    color: white;
+}
+.centertxt>p:last-child{
+    font-size: 0.5rem;
+    color: white;
+}

@@ -1,5 +1,5 @@
 body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
-html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
 body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
 @font-face {
     /* font-properties */
@@ -24,464 +24,101 @@ html{
     font-size: 45px;
 
 }
-#content{
-    text-align: center;
-}
-a{
-    text-decoration:none;
-}
-p{
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
-    font-size: 0.33rem;
-    margin-bottom:2px;
-    margin-top:2px;
-    color: #575757;
-}
 
-.top{
-    position: relative;
-    /*float: left;*/
+.room_num{
     width: 100%;
     height: 1rem;
-    background: #049ff1;
-    line-height: 1rem;
-    color: white;
-    text-align:center;
+    background-color: white;
+    margin: 0.35rem auto;
+
 }
-.top>div:first-child{
+.room_num div:first-child{
     float: left;
-    margin: 0rem 0.2rem 0 ;
-    line-height: 1rem;
-    font-size: 0.35rem;
-    color: white;
-}
-.top>div:nth-child(2){
-    float: left;
-    /*position: relative;*/
-    left: 30%;
-    line-height: 1rem;
-    color: white;
-    font-size: 0.45rem;
-}
-.top>div:last-child{
-    float: right;
-    margin: 0rem 0.2rem 0 ;
-    line-height: 1rem;
-    font-size: 0.35rem;
-    /*float: left;*/
-    color: white;
-}
-
-.head{
-    width: 100%;
-    background: url("../images/fddai.jpg") no-repeat;
-    background-size: cover;
-    height: 4rem;
-}
-
-.middle{
-    width: 100%;
-    height: 1rem;
-    margin-top: 1rem;
-    /*background: #049ff1;*/
-    /*position: relative;*/
-    text-align: center;
-}
-.foot{
-    width: 100%;
-    height: 1rem;
-    margin-top: 0;
-    text-align: center;
-    color: darkgray;
     font-size: 0.35rem;
     line-height: 1rem;
+    margin-left: 2%;
+    color: grey;
 }
-.middle img{
-    height: 1rem;
-}
-.xingming{
-    width: 100%;
-}
-.xingming tr{
-    height: 1rem;
-    line-height: 1rem;
-}
-.xingming tr td:first-child{
-    width: 30%;
-    text-align: left;
-}
-.xingming tr td:first-child img{
+.room_num div:last-child{
     float: left;
-    width: 0.6rem;
-    margin: 0.1rem 0 0;
-}
-.xingming tr td:first-child div{
-    float: left;
+    font-size: 0.25rem;
     line-height: 1rem;
-    margin: 0 0 0;
-    color: darkgray;
-    font-size: 0.3rem;
-
+    margin-left: 0.5rem;
+    color: #9d9d9d;
 }
-.xingming tr td:last-child{
-    width: 70%;
-    text-align: left;
-    color: darkgray;
-    font-size: 0.3rem;
-    line-height: 1rem;
-
-}
-
-.input_xm{
-    width: 90%;
-    height: 0.8rem;
-    border-left: #fff 1px solid;
-    border-top: #fff 1px solid;
-    border-right: #fff 1px solid;
-    border-bottom: #fff 1px solid;
-
-    padding-left: 1px;
-    background: #f8f8f8;
-    float: left;
-    font-size: 0.35rem;
-    color: darkgray;
-    line-height: 1rem;
-    text-align: left;
-
-}
-.input_xm::-webkit-input-placeholder { /* WebKit browsers */
-    color:grey;
-    /*background:lightgreen;*/
-    text-transform:uppercase;
-    letter-spacing:1px;
-    font-size: 0.2rem;
-}
-.input_xm::-moz-placeholder {
-    color:grey;
-    /*background:lightgreen;*/
-    text-transform:uppercase;
-    letter-spacing:1px;
-    font-size: 0.2rem;
-}
-.xueli{
-    width: 100%;
-}
-.xueli tr{
-    height: 1rem;
-    line-height: 1rem;
-}
-
-
-.xueli tr td:first-child{
-    width: 33%;
-    text-align: left;
-
-}
-.xueli tr td:first-child img{
-    float: left;
-    width: 0.6rem;
-    margin: 0.1rem 0 0;
-}
-.xueli tr td:first-child div{
-    float: left;
-    line-height: 1rem;
-    color: darkgray;
-    font-size: 0.3rem;
-}
-
-.xueli tr td:nth-child(2){
-    width: 33%;
-    text-align: center;
-    color: darkgray;
-    font-size: 0.3rem;
-    line-height: 1rem;
-}
-.xueli tr td:last-child{
-    width: 33%;
-    text-align: right;
-    color: darkgray;
-    font-size: 0.3rem;
-    padding-right: 0.2rem;
-}
-
-.clear {
+.clear{
     clear: both;
 }
 
-.subbtn{
-    font-size: 0.5rem;
-    width: 40%;
-    margin: 0 auto;
-    background: blue;
-    height: 0.8rem;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    display: block;
-    margin-top: 0.2rem;
-}
-
-
-
-
-
-.jg{ margin-bottom:1.3rem;}
-footer{ position:fixed;bottom:0px;left:0px; margin-top:0.1rem; width:100%; height:1.1rem; background-color: #00aacc; padding-top:0.1rem; font-size:0.4rem;flex:1;}
-.mune{ float:left; margin-left:14.5%; width:14%; height:1.5rem; text-align:center;}
-.mune p{ font-size:0.23rem; color:#656565;}
-.mune img{ width:0.6rem; height:0.7rem;}
-
-
-
-
-
-
-
-
-
-.gongyu{
-    background: #3FB5F3   ;
-    /*border-radius: 5px;*/
+.xueli{
     width: 100%;
-    margin: -1px auto;
-    color: white;
+    border-collapse:collapse;
 }
-.gongyu>div:first-child{
-
-    border-radius: 5px;
-    margin: 1px;
-    height: 1.6rem;
-    position: relative;
-}
-.total{
-    width: 100%;
-    height: 0.8rem;
-    background: white;
-    line-height: 0.8rem;
-    border: 1px solid#D3D3D3 ;
-    border-left: none;
-    border-right: none;
-}
-.total>div:first-child{
-    float: left;
-    margin: 0rem 0.2rem 0;
-    color: gray;
-    font-size: 0.3rem;
-}
-.total>div:last-child{
-    float: right;
-    margin: 0rem 0.2rem 0 ;
-    color: red;
-    font-size: 0.3rem;
-}
-.place{
-    width: 100%;
-    height: 0.3rem;
-    background: #FAFAFA ;
-}
-.list{
-    width: 100%;
-    height: 0.8rem;
-    background: white;
-    line-height: 0.8rem;
-    /*margin-top: 0.5rem;*/
-    border: 0.1px solid#D3D3D3 ;
-    border-left: none;
-    border-right: none;
-}
-.list>div:first-child{
-    float: left;
-    /*width: 69%;*/
-    margin: 0rem 0.2rem 0;
-    color: gray;
-    font-size: 0.3rem;
-}
-.list>div:last-child{
-    float: right;
-    /*width: 29%;*/
-    margin: 0rem 0.2rem 0 ;
-    color: gray;
-    font-size: 0.3rem;
-    border: 0.1px solid#D3D3D3 ;
-    /*border-left: none;*/
-    border-right: none;
-    border-top: none;
-    border-bottom: none;
-}
-.acount_date{
-    width: 100%;
-    height: 0.8rem;
-    background: white;
-    line-height: 0.8rem;
-    border: 0.1px solid#D3D3D3 ;
-    border-left: none;
-    border-right: none;
-    border-top: none;
-}
-.acount_date>div:first-child{
-    float: left;
-    margin: 0rem 0.2rem 0;
-    color: gray;
-    font-size: 0.3rem;
-}
-.acount_date>div:last-child{
-    float: left;
-    margin: 0rem 0.2rem 0 ;
-    color: orange;
-    font-size: 0.3rem;
-}
-
-.liebiao{
-    width: 100%;
+.xueli tr{
     height: 1rem;
-    border: 1px solid#D3D3D3 ;
-    background: white;
-    border-left: none;
-    border-right: none;
+    /*background: url("../img/tabbar-白色.png");*/
+    border: 1px solid #9d9d9d;
+}
+.xueli td:first-child{
+    width: 20%;
+    text-align: center;
+    font-size: 0.35rem
+}
+.xueli td:nth-child(2){
+    width: 65%;
+    text-align: left;
+    padding-left: 0.2rem;
+    font-size: 0.25rem
+}
+.xueli td:last-child{
+    width: 14%;
+    text-align: left;
+    font-size: 0.35rem;
 }
 
-.t1 td input{
-    float: left;
-    margin: 0 0.1rem 0 ;
+.jumplist{
+    width: 100%;
+    margin-top: 0;
 }
-#td1>{
-    float: left;
-    margin: 0rem 0.2rem 0;
-
+.jumplist ul{
+    padding:0;
+    list-style: none;
+    /*border-collapse:collapse;*/
 }
-#td1>p:first-child{
-    color: #808080 ;
-    font-size: 0.3rem;
-}
-#td1>label{
-
-    /*color: gray;*/
-    /*font-size: 0.4rem;*/
-    color: #808080  ;
-    font-size: 0.2rem;
-}
-#td2>div{
-    float: right;
-    margin: 0 0.1rem 0 ;
-    color: gray;
-    font-size: 0.4rem;
-}
-
-
-/*.divb{*/
-    /*position: absolute;*/
-    /*background: white;*/
-    /*filter:Alpha(opacity=10);*/
-    /*opacity: 0.1;*/
-    /*height: 1.6rem;*/
-    /*margin: 0 auto;*/
-    /*width:100%;*/
-/*}*/
-
-/*.gongyu>div>img{*/
-    /*float: left;*/
-    /*margin: 0.4rem 0.2rem 0;*/
-    /*height: 1.6rem;*/
-    /*margin: 0 auto;*/
-    /*width:100%;*/
-/*}*/
-.centertxt{
-    float: left;
-    margin: 0.3rem 0.2rem 0;
-}
-.centertxt>p:first-child{
-    font-size: 0.3rem;
-    color: white;
-}
-.centertxt>p:last-child{
-    font-size: 0.5rem;
-    color: white;
-}
-
-#login_form{
-    width: 80%;
-    margin: 0.5rem auto;
-}
-.myok{
-    margin: 0 auto;
-    width: 60%;
-    border-radius: 20px;
-    background:#2cc2ff ;
-    border: none;
-    outline: none;
-    display: block;
+.jumplist ul li{
+    list-style: none;
+    border: 1px solid #F6F6F6;
+    border-top: none;
 }
 
 .querytitle{
-     width: 100%;
-     background: white;
-     border-bottom: 1px solid #f3f3f3;
-     height: 0.8rem;
-     line-height: 0.8rem;
-     font-size: 0.25rem;
-     margin: 0 auto;
- }
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #f3f3f3;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    margin: 0 auto;
+}
 .toolleft{
     float: left;
-    width: 75%;
-    margin-left: 10%;
+    width: 28%;
+    margin-left: 2%;
+    font-size: 0.35rem;
+    color: grey;
+}
+.toolmiddle{
+    float: left;
+    width: 54%;
+    margin-left: 1%;
+    font-size: 0.25rem;
+    color: darkgray;
 }
 
 .toolright{
-    float: right;
-    width: 15%;
+    float: left;
+    width: 13%;
+    text-align: center;
+    color: grey;
+    font-size: 0.35rem;
 }
-.line{
-    height: 0.2rem;
-    background: #fbf9fa;
-}
-.rent{
-    width: 100%;
-    font-size: 0.25rem;
-    padding-left: 0.6rem;
-    border-bottom: 1px solid #f3f3f3;
-    background: white;
-}
-
-.rent >input[type=number]{
-    width: 60%;
-    border: none;
-    outline: none;
-    height: 0.8rem;
-    font-size: 0.25rem;
-}
-.subbtn{
-    font-size: 0.25rem;
-     width: 80%;
-     margin: 0 auto;
-     background: #D9D9D9;
-     height: 0.8rem;
-     border-radius: 25px;
-     border: none;
-     outline: none;
-     display: block;
-    margin-top: 0.2rem;
- }
-
-.subbtn:visited  , .subbtn:hover{
-    font-size: 0.25rem;
-    width: 80%;
-    margin: 0 auto;
-    background: #2cc2ff;
-    height: 0.8rem;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    display: block;
-    margin-top: 0.2rem;
-}
-
-.err{
-    color: #e36179;
-    font-size: 0.2rem;
-    width: 80%;
-    margin: 0 auto;
-    margin-top: 0.2rem;
-}
-
 

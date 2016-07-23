@@ -1,5 +1,5 @@
 body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
-html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 100px; outline: 0; -webkit-text-size-adjust:none;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
 body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
 @font-face {
     /* font-properties */
@@ -20,21 +20,10 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     font-family: my-font;
     color: green;
 }
-html{
-    font-size: 45px;
 
-}
 a{
     text-decoration:none;
 }
-p{
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
-    font-size: 0.33rem;
-    margin-bottom:2px;
-    margin-top:2px;
-    color: #575757;
-}
-
 .head{
     width: 100%;
     background: url("../images/fddai.jpg") no-repeat;
@@ -102,38 +91,56 @@ p{
     line-height: 1rem;
 
 }
+.city{
+    text-align: center;
+}
+.city input{
+    width: 70%;
+    height: 0.8rem;
+    margin-top: 0.1rem;
+    margin-bottom: 0.1rem;
+    line-height: 1rem;
+    float: left;
+    border-left: #fff 1px solid;
+    border-top: #fff 1px solid;
+    border-right: #fff 1px solid;
+    border-bottom: #fff 1px solid;
+    border-radius: 10px;
 
-.input_xm{
-    width: 90%;
+    padding-left: 1px;
+    background: #f8f8f8;
+
+    font-size: 0.35rem;
+    color: darkgray;
+
+    text-align: left;
+}
+.city div{
+    float: left;
+    width: 25%;
+    line-height: 1rem;
+    font-size: 0.35rem;
+}
+
+
+.price input{
+    width: 99%;
     height: 0.8rem;
     border-left: #fff 1px solid;
     border-top: #fff 1px solid;
     border-right: #fff 1px solid;
     border-bottom: #fff 1px solid;
+    border-radius: 10px;
 
     padding-left: 1px;
     background: #f8f8f8;
     float: left;
     font-size: 0.35rem;
     color: darkgray;
-    line-height: 1rem;
-    text-align: left;
+    line-height: 0.8rem;
+    text-align: center;
+}
 
-}
-.input_xm::-webkit-input-placeholder { /* WebKit browsers */
-    color:grey;
-    /*background:lightgreen;*/
-    text-transform:uppercase;
-    letter-spacing:1px;
-    font-size: 0.2rem;
-}
-.input_xm::-moz-placeholder {
-    color:grey;
-    /*background:lightgreen;*/
-    text-transform:uppercase;
-    letter-spacing:1px;
-    font-size: 0.2rem;
-}
 .xueli{
     width: 100%;
 }
@@ -178,27 +185,6 @@ p{
 .clear {
     clear: both;
 }
-
-.subbtn{
-    font-size: 0.5rem;
-    width: 40%;
-    margin: 0 auto;
-    background: blue;
-    height: 0.8rem;
-    border-radius: 25px;
-    border: none;
-    outline: none;
-    display: block;
-    margin-top: 0.2rem;
-}
-
-
-
-.jg{ margin-bottom:1.3rem;}
-footer{ position:fixed;bottom:0px;left:0px; margin-top:0.1rem; width:100%; height:1.1rem; background-color: #00aacc; padding-top:0.1rem; font-size:0.4rem;flex:1;}
-.mune{ float:left; margin-left:14.5%; width:14%; height:1.5rem; text-align:center;}
-.mune p{ font-size:0.23rem; color:#656565;}
-.mune img{ width:0.6rem; height:0.7rem;}
 
 
 

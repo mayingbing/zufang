@@ -5,11 +5,19 @@
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
-    <link href="/Public/home/css/query.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/home/css/shouzu.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/home/css/header_footer.css" rel="stylesheet" type="text/css" />
 
 </head>
-    <body>
-    <div class="top">收租</div>
+<body>
+<header>
+    <div class="rt-bk">
+        <i class="bk"></i>
+       <a href="fd_shouye.html"><p>返回</p></a>
+    </div>
+    <div class="top-name"><p>收租</p></div>
+
+</header>
 
     <table class="tiaojian">
             <tr>
@@ -50,7 +58,7 @@
 
     <div class="show_tool_head">小区（合租）</div>
 
-    <a  href="<?php echo U("zjxq");?>" >
+    <a  href="<?php echo U("fyxq");?>" >
 
         <table  class="liebiao" >
             <tr id="t1">

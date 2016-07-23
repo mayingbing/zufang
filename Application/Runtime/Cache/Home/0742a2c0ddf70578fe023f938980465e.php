@@ -6,24 +6,33 @@
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
     <link href="/Public/Home/css/fddai.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
+
     <div class="head">
-        <div class="top">房东贷</div>
+        <header >
+            <div class="rt-bk">
+                <i class="bk"></i>
+                <a href="fd_shouye.html"><p>返回</p></a>
+            </div>
+            <div class="top-name"><p>催租</p></div>
+
+        </header>
         <div class="middle"><img src="/Public/Home/images/dun.jpg" /></div>
         <div class="foot">填写信息，线上办理，最长3年，最高20万</div>
     </div>
 
     <div>
-    <form method="post" action="<?php echo U("zjxq");?>">
+    <form method="post" action="<?php echo U("fd_shouye");?>">
         <table class="xingming">
 
             <tr >
                 <td>
                     <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
+                    <div>姓名:</div>
                 </td>
                 <td>
                     <div><input class="input_xm" type="text" name="fd_name" placeholder="请填写真实姓名，提交后无法修改"/></div>
@@ -33,7 +42,7 @@
               <tr class="xingming">
                 <td>
                     <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>身份证</div>
+                    <div>身份证:</div>
                 </td>
                 <td>
                     <div><input class="input_xm" type="text" name="fd_sfz" placeholder="请填写18位有效证件号"/></div>
@@ -120,10 +129,16 @@
                     <div>居住意向</div>
                 </td>
                 <td>
-                    <div>市</div>
+                    <div class="city">
+                        <input type="text" name="city" placeholder="北京市"/>
+                        <div>市</div>
+                    </div>
                 </td>
                 <td>
-                    <div>区</div>
+                    <div class="city">
+                        <input type="text" name="towns" placeholder="海淀区"/>
+                        <div>区</div>
+                    </div>
                 </td>
             </tr>
             <tr >
@@ -132,7 +147,7 @@
                     <div>每月租金</div>
                 </td>
                 <td>
-                    <div><input type="text" name="fd_name" placeholder=""/></div>
+                    <div class="price"><input type="text" name="fd_name" placeholder=""/></div>
                 </td>
                 <td>
                     <div >元</div>
@@ -156,10 +171,10 @@
         <a href="<?php echo U("fangtai");?>">
         <div class="mune">
             <img src="/Public/Home/images/fangdong/tabar2.jpg">
-            <p>商家</p>
+            <p>房源</p>
         </div>
         </a>
-        <a href="<?php echo U("index");?>">
+        <a href="<?php echo U("self");?>">
         <div class="mune">
             <img src="/Public/Home/images/fangdong/tabar3.jpg">
             <p>个人中心</p>

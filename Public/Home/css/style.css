@@ -52,7 +52,7 @@ header{ position:relative; width: 5rem; height: 0.84rem;  border-bottom:1px soli
 .mt-2{ margin-top:0.38rem;}
 .mt-3{ margin-top:0.29rem;}
 .jg{ margin-bottom:1.3rem;}
-footer{ position:fixed;bottom:0px;left:0px; margin-top:0.2rem; width:5rem; height:0.99rem; background:url(../img/projection.png) repeat-x; padding-top:0.2rem; font-size:0.24rem;}
+footer{ position:fixed;bottom:0px;left:0px; margin-top:0.2rem; width:5rem; height:0.99rem; background:url(../img/tabbar-白色.png) repeat-x; padding-top:0.2rem; font-size:0.24rem;}
 .mune{ float:left; margin-left:0.15rem; width:0.6rem; height:0.5rem; text-align:center;}
 .mune p{ font-size:0.12rem; color:#656565;}
 .mune img{ width:0.5rem; height:0.5rem;}

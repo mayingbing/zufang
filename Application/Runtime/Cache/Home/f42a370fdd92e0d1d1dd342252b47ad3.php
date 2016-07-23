@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
     <link href="/Public/Home/css/fangtai.css" rel="stylesheet" type="text/css" />
 
 </head>
@@ -67,9 +68,10 @@
 
 </div>
 
-    <div class="jg"></div>
+<div class="jg"></div>
+
 <footer>
-    <a href="<?php echo U("index");?>">
+    <a href="<?php echo U("fd_shouye");?>">
     <div class="mune">
         <img src="/Public/Home/images/fangdong/tabar1.jpg">
         <p>首页</p>
@@ -78,15 +80,16 @@
     <a href="<?php echo U("fangtai");?>">
     <div class="mune">
         <img src="/Public/Home/images/fangdong/tabar2.jpg">
-        <p>商家</p>
+        <p>房源</p>
     </div>
     </a>
-    <a href="<?php echo U("index");?>">
+    <a href="<?php echo U("self");?>">
     <div class="mune">
         <img src="/Public/Home/images/fangdong/tabar3.jpg">
         <p>个人中心</p>
     </div>
     </a>
 </footer>
-    </body>
-    </html>
+
+</body>
+</html>

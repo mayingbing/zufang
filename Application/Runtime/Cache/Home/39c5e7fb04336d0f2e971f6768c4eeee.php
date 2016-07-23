@@ -5,24 +5,27 @@
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
     <link href="/Public/Home/css/fwxinxi.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
 
-    <div class="top">房屋信息</div>
+<header >
+    <div class="rt-bk">
+        <i class="bk"></i>
+        <a href="fangtai.html"><p>返回</p></a>
+    </div>
+    <div class="top-name"><p>房屋信息</p></div>
+
+</header>
+
     <form>
         <div class="search">
-            <table>
-                <tr>
-                    <td>
-                        <img  src="/Public/Home/images/search.png"/>
-                        <input type="text" placeholder="搜索"/>
-                    </td>
-                </tr>
-            </table>
 
+            <img  />
+            <div><input class="input_xm" type="text" placeholder="搜索"/></div>
 
         </div>
 
@@ -63,6 +66,8 @@
                         </div>
                     </div>
                 </a>
+            </li>
+            <li>
                 <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">
                     <div class="querytitle">
                         <div class="toolleft">
@@ -73,6 +78,8 @@
                         </div>
                     </div>
                 </a>
+            </li>
+            <li>
                 <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">
                     <div class="querytitle">
                         <div class="toolleft">

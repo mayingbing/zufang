@@ -64,7 +64,7 @@
     </div>
 
     <div class="clear"></div>
-    <div class="add"><a href="<?php echo U("index");?>"><img src="/Public/Home/images/fangdong/new.png" alt=""/></a></div>
+    <div class="add"><a href="<?php echo U("add_fy");?>"><img src="/Public/Home/images/fangdong/new.png" alt=""/></a></div>
 
 </div>
 

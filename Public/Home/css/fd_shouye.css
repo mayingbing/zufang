@@ -52,20 +52,20 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     filter:Alpha(opacity=90);
     opacity: 0.9;
     zoom:1;
-    text-align: center;
+
 }
 .zuke>div>p:first-child{
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    /*font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';*/
     color: white;
     font-size: 0.3rem;
 }
 .zuke>div>p:nth-of-type(n+2){
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    /*font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';*/
     color: white;
     font-size: 0.5rem;
 }
 .zuke>div>p:last-child{
-    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    /*font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';*/
     color: white;
     font-size: 0.3rem;
 }

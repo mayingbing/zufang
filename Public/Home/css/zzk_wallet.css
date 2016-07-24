@@ -20,14 +20,48 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     font-family: my-font;
     color: green;
 }
-
-
-.clear{
-    clear: both;
-}
-
 a{
     text-decoration: none;
+}
+
+.total{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    line-height: 0.8rem;
+    border: 1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+}
+.total>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: red;
+    font-size: 0.25rem;
+    line-height: 0.8rem;
+}
+.total>div:last-child{
+    float: right;
+    margin: 0rem 0.2rem 0 ;
+    color: red;
+    font-size: 0.3rem;
+}
+
+.acount_date{
+    width: 100%;
+    height: 0.7rem;
+    background: white;
+    line-height: 0.7rem;
+    border: 0.1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.acount_date>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: gray;
+    font-size: 0.3rem;
 }
 
 .jumplist{
@@ -37,33 +71,25 @@ a{
 .jumplist ul{
     padding:0;
     list-style: none;
-    /*border-collapse:collapse;*/
+    border-collapse:collapse;
 }
 .jumplist ul li{
     list-style: none;
-    border: 1px solid #F6F6F6;
+    border: 1px solid whitesmoke;
     border-top: none;
 }
 
 .querytitle{
     width: 100%;
-    background: whitesmoke;
+    background: white;
     border-bottom: 1px solid #f3f3f3;
     height: 0.9rem;
     line-height: 0.9rem;
     margin: 0 auto;
 }
-.logotitle{
-    width: 100%;
-    background: whitesmoke;
-    border-bottom: 1px solid #f3f3f3;
-    height: 2rem;
-    line-height: 2rem;
-}
-
 .toolleft{
     float: left;
-    width: 28%;
+
     margin-left: 2%;
     font-size: 0.35rem;
     color: grey;
@@ -72,34 +98,17 @@ a{
 
 .toolright{
     float: right;
-    width: 55%;
-    text-align: right;
+    margin-right: 0.2rem;
+    text-align: center;
     color: grey;
     font-size: 0.35rem;
 }
-
-.toolright_logo{
+.toolright p:first-child{
+    float: right
+}
+.toolright p:last-child{
     float: right;
-    width: 1.7rem;
-    margin-right: 5%;
-    text-align: right;
-    color: grey;
-    font-size: 0.35rem;
+    color: red ;
+    margin-right: 0.1rem
 }
 
-.toolright_logo div:first-child{
-
-    height: 1.7rem;
-    width: 1.7rem;
-    border: 1px solid #999999;
-    text-align: center;
-    line-height: 1.7rem;
-
-}
-.toolright_logo div:last-child{
-    height: 0.3rem;
-    width: 1.7rem;
-    text-align: center;
-    line-height: 0.3rem;
-    font-size: 0.25rem;
-}

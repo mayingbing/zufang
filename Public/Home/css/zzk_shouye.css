@@ -1,0 +1,114 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+
+
+.head{
+    width: 100%;
+    background: url("../images/card_back.jpg") no-repeat;
+    background-size: cover;
+    height: 4rem;
+}
+.zuke{
+    height: 4rem;
+    padding-top: 1rem;
+
+
+}
+.zuke>div{
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    background: #049ff1;
+    filter:Alpha(opacity=90);
+    opacity: 0.9;
+    zoom:1;
+    text-align: center;
+}
+.zuke>div{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, 'Æ»·½';
+    color: white;
+    font-size: 0.5rem;
+}
+
+
+.middle{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.jiaozu{
+    color: #595959;
+    float: left;
+    width: 45%;
+    margin-left: 2.5%;
+    height: 2rem;
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 4px #d9d9d9;
+    -webkit-box-shadow:  1px 1px 4px #d9d9d9;
+    -moz-box-shadow:  1px 1px 4px #d9d9d9;
+}
+.jiaozu>img{
+    width: 20%;
+    height: 0.7rem;
+    float: left;
+    margin-top: 0.5rem;
+    margin-left: 10%;
+}
+.jiaozu>div{
+    float: right;
+    width: 53%;
+    margin-right: 10%;
+    overflow: hidden;
+    margin-top: 0.5rem;
+}
+.jiaozu>div>p:first-child{
+    font-size: 0.35rem;
+}
+.jiaozu>div>p:last-child{
+    font-size: 0.2rem;
+}
+.zhangdan{
+    margin-left: 5%;
+}
+/*.bottom{*/
+    /*margin: 1.3rem auto 0;*/
+    /*height: 1rem;*/
+    /*background:#049ff1 ;*/
+/*}*/
+
+/*.bottom ul{*/
+    /*padding-top: 0.1rem;*/
+/*}*/
+/*.bottom ul li{*/
+    /*list-style: none;*/
+    /*float: right;*/
+/*}*/
+/*.bottom ul li{*/
+    /*padding-right: 1rem;*/
+/*}*/
+
+
+
+

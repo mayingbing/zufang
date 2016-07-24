@@ -21,22 +21,22 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     color: green;
 }
 
+a{
+    text-decoration: none;
+    color: snow;
 
-.querytitle{
-    width: 80%;
-    background: white;
-    border: 0.1px solid#D3D3D3 ;
-    border-radius: 10px;
-    height: 0.9rem;
-    line-height: 0.9rem;
-    margin: 0.2rem auto;
 }
 
-.toolleft{
-    float: left;
-    width: 90%;
-    margin-left: 1px ;
-    height: 0.9rem;
-    margin-top:0.05rem;
+
+input[type=text]{
+    width: 80%;
+    height: 0.6rem;
+    line-height: 0.6rem;
+    font-size: 0.25rem;
+    display: block;
+    margin: 0 auto;
+    margin-top: 0.3rem;
+    border: none;
+    background: white;
 }
 

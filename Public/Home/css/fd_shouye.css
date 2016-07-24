@@ -73,6 +73,7 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     width: 100%;
     margin-top: 0.5rem;
     height: 5rem;
+    background-color: white;
 }
 .jiaozu{
     color: #595959;
@@ -89,21 +90,23 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     width: 20%;
     height: 1rem;
     float: left;
-    margin-top: 2rem;
+    margin-top: 1.6rem;
     margin-left: 10%;
 }
 .jiaozu>div{
-    float: right;
+    float: left;
     width: 53%;
-    margin-right: 10%;
+    margin-left: 5%;
     overflow: hidden;
     margin-top: 1.5rem;
 }
 .jiaozu>div>p:first-child{
-    font-size: 0.45rem;
+    font-size: 0.35rem;
+    margin: 0.2rem;
 }
 .jiaozu>div>p:last-child{
-    font-size: 0.3rem;
+    font-size: 0.25rem;
+    margin: 0.2rem;
 }
 
 .cuizu{
@@ -126,18 +129,22 @@ body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; ba
     margin-left: 10%;
 }
 .cuizu>div{
-    float: right;
+    float: left;
     width: 53%;
-    margin-right: 10%;
+    margin-left: 5%;
     overflow: hidden;
-    margin-top: 0.1rem;
+    margin-top: 0.5rem;
 }
 .cuizu>div>p:first-child{
-    font-size: 0.45rem;
+    font-size: 0.35rem;
+    margin: 0.2rem auto;
 }
 .cuizu>div>p:last-child{
-    font-size: 0.3rem;
+    font-size: 0.25rem;
+    margin: 0.2rem auto;
 }
-
+.clear{
+    clear: both;
+}
 
 

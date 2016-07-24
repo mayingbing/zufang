@@ -1,18 +1,18 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>房屋详情</title>
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
-    <link href="__PUBLIC__/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
-    <link href="__PUBLIC__/Home/css/feiyong.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/Home/css/feiyong.css" rel="stylesheet" type="text/css" />
 </head>
 <body id="content">
 <header>
     <div class="rt-bk">
         <!--<i class="bk"></i>-->
-       <a href="{:U("add_fy")}">
+       <a href="<?php echo U("addfy");?>">
            <p>上一步</p>
        </a>
     </div>
@@ -22,7 +22,7 @@
 
 
 <div class="clear"></div>
-<form action="{:U("#")}" method="post">
+<form action="<?php echo U("#");?>" method="post">
 <div class="jumplist">
     <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
 

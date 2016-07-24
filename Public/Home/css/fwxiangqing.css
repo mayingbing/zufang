@@ -24,6 +24,9 @@ html{
     font-size: 45px;
 
 }
+a{
+    text-decoration:none;
+}
 
 .room_num{
     width: 100%;

@@ -1,46 +1,28 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>费用详情</title>
+    <title>房屋详情</title>
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
     <link href="__PUBLIC__/Home/css/header_footer.css" rel="stylesheet" type="text/css" />
-    <link href="__PUBLIC__/Home/css/my_wallet.css" rel="stylesheet" type="text/css" />
-
-
+    <link href="__PUBLIC__/Home/css/feiyong.css" rel="stylesheet" type="text/css" />
 </head>
-
-<body>
-
+<body id="content">
 <header>
     <div class="rt-bk">
         <!--<i class="bk"></i>-->
-        <a href="{:U("chongzi")}"><p>充值</p></a>
+       <a href="{:U("addfy")}">
+           <p>上一步</p>
+       </a>
     </div>
-    <div class="top-name">
-        <p>我的钱包</p>
-    </div>
-    <div class="top-ok">
-        <a href="{:U("tixian")}"><p>提现</p></a>
-    </div>
+    <div class="top-name"><p>费用</p></div>
+    <div class="top-ok"><p>下一步</p></div>
 </header>
 
 
-<div class="total">
-
-        <div> * 请在72小时之内进行实名认证</div>
-        <div></div>
-
-</div>
-
-
-<div class="acount_date">
-
-        <div>账户信息</div>
-
-</div>
-
+<div class="clear"></div>
+<form action="{:U("#")}" method="post">
 <div class="jumplist">
     <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
 
@@ -48,13 +30,13 @@
 
             <div class="querytitle">
                 <div class="toolleft">
-                    账户余额
+                    水费
                 </div>
-
+                <div class="toolmiddle">
+                    <input class="input_xm" type="text" placeholder=""/>
+                </div>
                 <div class="toolright">
-
-                    <p >元</p>
-                    <p >0</p>
+                    元/吨
                 </div>
             </div>
 
@@ -63,26 +45,13 @@
 
             <div class="querytitle">
                 <div class="toolleft">
-                    可提现金额
+                    电费
                 </div>
-
+                <div class="toolmiddle">
+                    <input class="input_xm" type="text" placeholder=""/>
+                </div>
                 <div class="toolright">
-                    <p >元</p>
-                    <p >0</p>
-                </div>
-            </div>
-
-        </li>
-<li>
-
-            <div class="querytitle">
-                <div class="toolleft">
-                    托管金额
-                </div>
-
-                <div class="toolright">
-                    <p >元</p>
-                    <p >0</p>
+                    元/度
                 </div>
             </div>
 
@@ -90,6 +59,12 @@
 
     </ul>
 </div>
+    <!--<input class="subbtn" type="submit" value="提交"/>-->
+</form>
 
-    </body>
-    </html>
+<div class="subbtn" style="text-align: center;line-height: 0.8rem">
+    +添加费用  按钮
+</div>
+
+</body>
+</html>

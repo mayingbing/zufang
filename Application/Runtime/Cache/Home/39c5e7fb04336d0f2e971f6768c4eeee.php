@@ -62,7 +62,7 @@
                             1001
                         </div>
                         <div class="toolright">
-                            已租
+                            未租
                         </div>
                     </div>
                 </a>
@@ -74,13 +74,13 @@
                             1002
                         </div>
                         <div class="toolright">
-                            已租
+                            未租
                         </div>
                     </div>
                 </a>
             </li>
             <li>
-                <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">
+                <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing2");?>">
                     <div class="querytitle">
                         <div class="toolleft">
                             1003

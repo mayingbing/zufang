@@ -162,7 +162,7 @@
 
     <div class="jg"></div>
     <footer>
-        <a href="<?php echo U("index");?>">
+        <a href="<?php echo U("fd_shouye");?>">
         <div class="mune">
             <img src="/Public/Home/images/fangdong/tabar1.jpg">
             <p>首页</p>

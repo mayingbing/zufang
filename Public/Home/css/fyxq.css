@@ -25,20 +25,25 @@ a{
     text-decoration:none;
 }
 
-.gongyu{
-    background: #3FB5F3   ;
-    /*border-radius: 5px;*/
+.centertxt{
     width: 100%;
-    margin: -1px auto;
+    height: 1.5rem;
+    background-color: #2cc2ff;
+}
+.centertxt>p:first-child{
+    font-size: 0.3rem;
     color: white;
+    position: absolute;
+    margin: 0.3rem 0 0rem 0.2rem;
 }
-.gongyu>div:first-child{
+.centertxt>p:last-child{
+    font-size: 0.5rem;
+    color: white;
+    position: absolute;
+    margin: 0.7rem 0 0.2rem 0.2rem;
+}
 
-    border-radius: 5px;
-    margin: 1px;
-    height: 1.6rem;
-    position: relative;
-}
+
 .total{
     width: 100%;
     height: 0.8rem;
@@ -125,44 +130,35 @@ a{
     border-left: none;
     border-right: none;
 }
-
-.t1 td input{
+.t1 td img{
     float: left;
-    margin: 0 0.1rem 0 ;
+    margin: 0.15rem 0.2rem 0.15rem;
+    width: 0.5rem;
+    height: 0.5rem;
+}
+.t1 td:first-child{
+    width: 25%;
 }
 #td1>{
-    float: left;
-    margin: 0rem 0.2rem 0;
-
+    width: 25%;
+    line-height: 1rem;
 }
-#td1>p:first-child{
+#td1 p:first-child{
     color: #808080 ;
     font-size: 0.3rem;
+    margin: 0.1rem 0 0.1rem 0;
 }
-#td1>label{
-
-    /*color: gray;*/
-    /*font-size: 0.4rem;*/
-    color: #808080  ;
+#td1 p:last-child{
+    color: darkgray  ;
     font-size: 0.2rem;
+}
+#td2{
+    width: 49%;
 }
 #td2>div{
     float: right;
     margin: 0 0.1rem 0 ;
     color: gray;
-    font-size: 0.4rem;
+    font-size: 0.35rem;
 }
 
-
-.centertxt{
-    float: left;
-    margin: 0.3rem 0.2rem 0;
-}
-.centertxt>p:first-child{
-    font-size: 0.3rem;
-    color: white;
-}
-.centertxt>p:last-child{
-    font-size: 0.5rem;
-    color: white;
-}

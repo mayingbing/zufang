@@ -57,14 +57,14 @@ html{
 }
 .toolleft{
     float: left;
-    width: 28%;
+    width: 35%;
     margin-left: 2%;
     font-size: 0.3rem;
     color: grey;
 }
 .toolmiddle{
     float: left;
-    width: 54%;
+    width: 50%;
     margin-left: 1%;
     font-size: 0.25rem;
     color: darkgray;
@@ -73,10 +73,11 @@ html{
 
 .toolright{
     float: left;
-    width: 13%;
+    width: 10%;
     text-align: center;
     color: grey;
-    font-size: 0.35rem;
+    font-size: 0.4rem;
+
 }
 
 .input_cz{

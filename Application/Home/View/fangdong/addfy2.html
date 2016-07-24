@@ -17,28 +17,18 @@
        </a>
     </div>
     <div class="top-name"><p>分散式</p></div>
-    <div class="top-ok"><p>下一步</p></div>
+    <div class="top-ok">
+        <a href="{:U("qtfeiyong")}"><p>下一步</p></a>
+    </div>
 </header>
 
 
 <div class="clear"></div>
 
-<form action="{:U("fd_shouye")}" method="post">
+
+<form action="{:U("qtfeiyong")}" method="post">
 <div class="jumplist">
     <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
-        <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("huxing")}">-->
-            <div class="querytitle">
-                <div class="toolleft">
-                    出租类型
-                </div>
-
-                <div class="toolright">
-                    <input class="input_xm" type="text" placeholder="整租/合租"/>
-                </div>
-            </div>
-            <!--</a>-->
-        </li>
         <li>
             <!--<a style=" text-decoration:none; color:#9d9d9d" href="{:U("huxing")}">-->
             <div class="querytitle">
@@ -99,7 +89,7 @@
                     房源数量
                 </div>
                 <div class="toolright">
-                    <input class="input_xm" type="text" placeholder="请输入可租房间数量"/>
+                    <input class="input_xm" type="text" placeholder="请输入您的房源数量"/>
                 </div>
 
             </div>
@@ -108,23 +98,24 @@
 
         <li>
             <a style=" text-decoration:none; color:#9d9d9d" href="#">
-            <div class="logotitle">
-                <div class="toolleft">
-                    头像
-                </div>
+                <div class="logotitle">
+                    <div class="toolleft">
+                        公寓头像
+                    </div>
 
-                <div class="toolright_logo">
-                    <div>+</div>
-                    <div>上传公寓logo</div>
+                    <div class="toolright_logo">
+                        <div>+</div>
+                        <div>上传公寓logo</div>
+                    </div>
                 </div>
-            </div>
             </a>
 
         </li>
 
     </ul>
 </div>
-    <input class="subbtn" type="submit" value="提交"/>
+<input class="subbtn" type="submit" value="提交"/>
 </form>
+
 </body>
 </html>

@@ -1,46 +1,23 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>收租</title>
     <meta name="viewport"
           content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;"/>
     <meta http-equiv="Content-Type"  charset=utf-8" />
-    <link href="__PUBLIC__/home/css/fd_fy.css" rel="stylesheet" type="text/css" />
-    <link href="__PUBLIC__/home/css/header_footer.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/home/css/fd_fy.css" rel="stylesheet" type="text/css" />
+    <link href="/Public/home/css/header_footer.css" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
 <header>
     <div class="rt-bk">
         <i class="bk"></i>
-       <a href="self.html"><p>返回</p></a>
+       <a href="myself.html"><p>返回</p></a>
     </div>
     <div class="top-name"><p>房源</p></div>
     <div class="top-ok"><p>完成</p></div>
 </header>
-
-    <!--<table class="tiaojian">-->
-            <!--<tr>-->
-                <!--<td width="24.5%">-->
-                    <!--<p>公寓类别：</p>-->
-                <!--</td>-->
-                <!--<td>-->
-                    <!--<select name="cat_id">-->
-                        <!--<option >选择类别 ▼</option>-->
-                        <!--<option >分散式</option>-->
-                        <!--<option >住宅式</option>-->
-                        <!--<option >别墅式</option>-->
-                    <!--</select>-->
-                <!--</td>-->
-                <!--<td width="24.5%">-->
-                    <!--<p ><font color="#00bfff">未收租(1)</font></p>-->
-                <!--</td>-->
-
-                <!--<td width="24.5%">-->
-                    <!--<p ><font color="#00bfff">已收租(2)</font></p>-->
-                <!--</td>-->
-            <!--</tr>-->
-    <!--</table>-->
 
     <table style="height: 0.5rem;line-height: 0.5rem;" class="liebiao" >
         <tr>
@@ -59,7 +36,7 @@
 
 
 
-    <a  href="{:U("#")}" >
+    <a  href="<?php echo U("#");?>" >
 
         <table style="height: 0.8rem;line-height: 0.8rem;" class="liebiao" >
             <tr >
@@ -76,7 +53,7 @@
 
                 </td>
                 <td style="width: 5% ;font-size: 0.3rem;float: left"> > </td>
-                <!--<img src="__PUBLIC__/Home/images/fangdong/qiandai.jpg">-->
+                <!--<img src="/Public/Home/images/fangdong/qiandai.jpg">-->
             </tr>
 
         </table>

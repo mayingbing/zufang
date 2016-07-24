@@ -29,7 +29,9 @@ html{
     clear: both;
 }
 
-
+a{
+    text-decoration: none;
+}
 
 .jumplist{
     width: 100%;

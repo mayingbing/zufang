@@ -25,7 +25,7 @@
     <div>1001</div>
 </div>
 <div class="clear"></div>
-<form action="<?php echo U("fd_shouye");?>" method="post">
+<form action="<?php echo U("fwxiangqing2");?>" method="post">
 <div class="jumplist">
     <ul style="list-style-type:none;padding-left: 0;margin-top: 0;">
         <li>
@@ -107,19 +107,19 @@
 
         </li>
         <li>
-            <a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("zkxinxi");?>">
+            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("zkxinxi");?>">-->
             <div class="querytitle">
                 <div class="toolleft">
                     租客
                 </div>
                 <div class="toolmiddle">
-                    张三
+                    <input class="input_xm" type="text" placeholder="请填写租客姓名"/>
                 </div>
                 <div class="toolright">
-                    >
+
                 </div>
             </div>
-            </a>
+            <!--</a>-->
 
         </li>
 

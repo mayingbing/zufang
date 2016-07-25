@@ -1,0 +1,105 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+
+
+.head{
+    width: 100%;
+    background: url("../images/card_back.jpg") no-repeat;
+    background-size: cover;
+    height: 4rem;
+}
+.zuke{
+    height: 4rem;
+    padding-top: 1rem;
+}
+
+.zuke>div{
+    margin: 0 auto;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    line-height: 2rem;
+    background: #049ff1;
+    filter:Alpha(opacity=90);
+    opacity: 0.9;
+    zoom:1;
+    text-align: center;
+}
+.zuke>div{
+    font-family: 'Microsoft Yahei', Tahoma, Arial, '苹方';
+    color: white;
+    font-size: 0.5rem;
+}
+
+
+.middle{
+    width: 100%;
+    margin-top: 0.5rem;
+}
+
+.middle ul{
+    padding:0;
+}
+
+.middle ul li{
+    list-style: none;
+}
+
+.querytitle{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #f3f3f3;
+    height: 0.8rem;
+    line-height: 0.8rem;
+    font-size: 0.25rem;
+    margin: 0 auto;
+}
+.toolleft{
+    float: left;
+    width: 75%;
+    margin-left: 10%;
+}
+
+.toolright{
+    float: right;
+    width: 15%;
+}
+
+
+.bottom{
+    margin:0 auto 0;
+    height: 1rem;
+    background:#049ff1 ;
+}
+
+.bottom ul{
+    padding-top: 0.1rem;
+}
+.bottom ul li{
+    list-style: none;
+    float: right;
+}
+.bottom ul li{
+    padding-right: 1rem;
+}

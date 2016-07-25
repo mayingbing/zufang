@@ -1,0 +1,116 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+
+a{
+    text-decoration:none;
+}
+
+
+.total{
+    width: 100%;
+    height: 0.8rem;
+    background: white;
+    line-height: 0.8rem;
+    border: 1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+}
+.total>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: red;
+    font-size: 0.25rem;
+    line-height: 0.8rem;
+}
+.total>div:last-child{
+    float: right;
+    margin: 0rem 0.2rem 0 ;
+    color: red;
+    font-size: 0.3rem;
+}
+
+.acount_date{
+    width: 100%;
+    height: 0.7rem;
+    background: white;
+    line-height: 0.7rem;
+    border: 0.1px solid#D3D3D3 ;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+.acount_date>div:first-child{
+    float: left;
+    margin: 0rem 0.2rem 0;
+    color: gray;
+    font-size: 0.3rem;
+}
+
+.jumplist{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.jumplist ul{
+    padding:0;
+    list-style: none;
+    border-collapse:collapse;
+}
+.jumplist ul li{
+    list-style: none;
+    border: 1px solid whitesmoke;
+    border-top: none;
+}
+
+.querytitle{
+    width: 100%;
+    background: white;
+    border-bottom: 1px solid #f3f3f3;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin: 0 auto;
+}
+.toolleft{
+    float: left;
+
+    margin-left: 2%;
+    font-size: 0.35rem;
+    color: grey;
+}
+
+
+.toolright{
+    float: right;
+    margin-right: 0.2rem;
+    text-align: center;
+    color: grey;
+    font-size: 0.35rem;
+}
+.toolright p:first-child{
+    float: right
+}
+.toolright p:last-child{
+    float: right;
+    color: red ;
+    margin-right: 0.1rem
+}
+

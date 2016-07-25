@@ -64,7 +64,7 @@
     </div>
 
     <div class="clear"></div>
-    <div class="add"><a href="<?php echo U("index");?>"><img src="/Public/Home/images/fangdong/new.png" alt=""/></a></div>
+    <div class="add"><a href="<?php echo U("addfy");?>"><img src="/Public/Home/images/fangdong/new.png" alt=""/></a></div>
 
 </div>
 
@@ -83,7 +83,7 @@
         <p>房源</p>
     </div>
     </a>
-    <a href="<?php echo U("self");?>">
+    <a href="<?php echo U("myself");?>">
     <div class="mune">
         <img src="/Public/Home/images/fangdong/tabar3.jpg">
         <p>个人中心</p>

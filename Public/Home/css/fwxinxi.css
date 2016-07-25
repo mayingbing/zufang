@@ -110,6 +110,7 @@ option{
 .jumplist{
     width: 100%;
     margin-top: 0;
+    background-color: white;
 }
 .jumplist ul{
     padding:0;
@@ -125,7 +126,7 @@ option{
 
 .querytitle{
     width: 100%;
-    background: #F6F6F6;
+    /*background: #F6F6F6;*/
     border-bottom: 1px solid #f3f3f3;
     height: 0.8rem;
     line-height: 0.8rem;

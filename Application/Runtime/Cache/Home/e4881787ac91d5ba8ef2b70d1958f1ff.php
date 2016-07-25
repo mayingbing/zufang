@@ -43,7 +43,7 @@
                     主卧
                 </div>
                 <div class="toolright">
-                    >
+
                 </div>
 
             </div>
@@ -112,22 +112,22 @@
             <!--</a>-->
 
             </li>
-            <li>
-            <!--<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">-->
-            <div class="querytitle">
-                <div class="toolleft">
-                    租客
-                </div>
-                <div class="toolmiddle">
-                    张三
-                </div>
-                <div class="toolright">
+            <!--<li>-->
+            <!--&lt;!&ndash;<a style=" text-decoration:none; color:#9d9d9d" href="<?php echo U("fwxiangqing");?>">&ndash;&gt;-->
+            <!--<div class="querytitle">-->
+                <!--<div class="toolleft">-->
+                    <!--租客-->
+                <!--</div>-->
+                <!--<div class="toolmiddle">-->
+                    <!--张三-->
+                <!--</div>-->
+                <!--<div class="toolright">-->
 
-                </div>
-            </div>
-            <!--</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--&lt;!&ndash;</a>&ndash;&gt;-->
 
-            </li>
+            <!--</li>-->
 
     </ul>
 </div>

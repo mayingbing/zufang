@@ -1,0 +1,105 @@
+body,div,ol,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,p,form,fieldset,legend,input{ margin:0; padding:0;}
+html {  width: 100%; font-family: 'Heiti SC', 'Microsoft YaHei'; font-size: 46px; outline: 0; -webkit-text-size-adjust:none;}
+body {  width:100%; margin: 0; -webkit-user-select: none; position: relative; background-color:#efeff4;}
+@font-face {
+    /* font-properties */
+    font-family: pictos;
+    src:url(../font/myfont.TTC),
+    url(../font/myfont.TTC),
+    url(../font/myfont.TTC); /* IE9 */
+}
+.font-face{
+    font-family: pictos;
+}
+@font-face {
+    /* font-properties */
+    font-family: my-font;
+    src: url(../font/myfont.TTC);
+}
+.font-face2{
+    font-family: my-font;
+    color: green;
+}
+
+
+.clear{
+    clear: both;
+}
+
+a{
+    text-decoration: none;
+}
+
+.jumplist{
+    width: 100%;
+    margin-top: 0.2rem;
+}
+.jumplist ul{
+    padding:0;
+    list-style: none;
+    /*border-collapse:collapse;*/
+}
+.jumplist ul li{
+    list-style: none;
+    border: 1px solid #F6F6F6;
+    border-top: none;
+}
+
+.querytitle{
+    width: 100%;
+    background: whitesmoke;
+    border-bottom: 1px solid #f3f3f3;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    margin: 0 auto;
+}
+.logotitle{
+    width: 100%;
+    background: whitesmoke;
+    border-bottom: 1px solid #f3f3f3;
+    height: 2rem;
+    line-height: 2rem;
+}
+
+.toolleft{
+    float: left;
+    width: 28%;
+    margin-left: 2%;
+    font-size: 0.35rem;
+    color: grey;
+}
+
+
+.toolright{
+    float: right;
+    width: 55%;
+    text-align: right;
+    color: grey;
+    font-size: 0.35rem;
+}
+
+.toolright_logo{
+    float: right;
+    width: 1.7rem;
+    margin-right: 5%;
+    text-align: right;
+    color: grey;
+    font-size: 0.35rem;
+}
+
+.toolright_logo div:first-child{
+
+    height: 1.7rem;
+    width: 1.7rem;
+    border: 1px solid #999999;
+    text-align: center;
+    line-height: 1.7rem;
+
+}
+.toolright_logo div:last-child{
+    height: 0.3rem;
+    width: 1.7rem;
+    text-align: center;
+    line-height: 0.3rem;
+    font-size: 0.25rem;
+}

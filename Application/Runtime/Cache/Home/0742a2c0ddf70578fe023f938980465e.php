@@ -18,7 +18,7 @@
                 <i class="bk"></i>
                 <a href="fd_shouye.html"><p>返回</p></a>
             </div>
-            <div class="top-name"><p>催租</p></div>
+            <div class="top-name"><p>房东贷</p></div>
 
         </header>
         <div class="middle"><img src="/Public/Home/images/dun.jpg" /></div>
@@ -31,7 +31,7 @@
 
             <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
+                    <img src="/Public/Home/images/fangdong/name.png" alt=""/>
                     <div>姓名:</div>
                 </td>
                 <td>
@@ -41,7 +41,7 @@
             </tr >
               <tr class="xingming">
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
+                    <img src="/Public/Home/images/fangdong/Id card.png" alt=""/>
                     <div>身份证:</div>
                 </td>
                 <td>
@@ -53,8 +53,32 @@
         <table class="xueli">
             <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
+                    <img src="/Public/Home/images/fangdong/education background.png" alt=""/>
+                    <div>学历</div>
+                </td>
+                <td>
+                    <div>本科</div>
+                </td>
+                <td>
+                    <div>V</div>
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <img src="/Public/Home/images/fangdong/graduation.png" alt=""/>
+                    <div>是否毕业</div>
+                </td>
+                <td>
+                    <div>本科</div>
+                </td>
+                <td>
+                    <div>V</div>
+                </td>
+            </tr>
+            <tr >
+                <td>
+                    <img src="/Public/Home/images/fangdong/work.png" alt=""/>
+                    <div>有无工作</div>
                 </td>
                 <td>
                     <div>本科</div>
@@ -77,32 +101,8 @@
             </tr>
             <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
-                </td>
-                <td>
-                    <div>本科</div>
-                </td>
-                <td>
-                    <div>V</div>
-                </td>
-            </tr>
-            <tr >
-                <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
-                </td>
-                <td>
-                    <div>本科</div>
-                </td>
-                <td>
-                    <div>V</div>
-                </td>
-            </tr>
-            <tr >
-                <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
+                    <img src="/Public/Home/images/fangdong/rent.png" alt=""/>
+                    <div>月收入</div>
                 </td>
                 <td>
                     <div>本科</div>
@@ -113,8 +113,8 @@
             </tr>
              <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
-                    <div>姓名</div>
+                    <img src="/Public/Home/images/fangdong/rent.png" alt=""/>
+                    <div>月支出</div>
                 </td>
                 <td>
                     <div>本科</div>
@@ -125,7 +125,7 @@
             </tr>
             <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
+                    <img src="/Public/Home/images/fangdong/Living intention.png" alt=""/>
                     <div>居住意向</div>
                 </td>
                 <td>
@@ -143,7 +143,7 @@
             </tr>
             <tr >
                 <td>
-                    <img src="/Public/Home/images/fangdong/qiandai.jpg" alt=""/>
+                    <img src="/Public/Home/images/fangdong/monthly rent.png" alt=""/>
                     <div>每月租金</div>
                 </td>
                 <td>
@@ -162,7 +162,7 @@
 
     <div class="jg"></div>
     <footer>
-        <a href="<?php echo U("index");?>">
+        <a href="<?php echo U("fd_shouye");?>">
         <div class="mune">
             <img src="/Public/Home/images/fangdong/tabar1.jpg">
             <p>首页</p>

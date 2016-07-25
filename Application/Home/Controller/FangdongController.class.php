@@ -25,7 +25,6 @@ class FangdongController extends Controller {
     public function edit_price(){
            $this->display();
     }
-
     public function cuizu(){
        $this->display();
     }
@@ -41,6 +40,10 @@ class FangdongController extends Controller {
     public function fwxiangqing(){
         $this->display();
     }
+    public function fwxiangqing2(){
+        $this->display();
+    }
+
     public function edit_fwxq(){
         $this->display();
     }
@@ -51,8 +54,55 @@ class FangdongController extends Controller {
         $this->display();
     }
     public function zkxinxi(){
-            $this->display();
+        $this->display();
     }
+    public function addfy(){
+        $this->display();
+    }
+    public function addfy2(){
+        $this->display();
+    }
+    public function qtfeiyong(){
+        $this->display();
+    }
+    public function myself(){
+        $this->display();
+    }
+    public function edit_name(){
+        $this->display();
+    }
+    public function edit_fdtel(){
+        $this->display();
+    }
+    public function tel_jieban(){
+        $this->display();
+    }
+    public function fd_fys(){
+        $this->display();
+    }
+    public function mywallet(){
+        $this->display();
+    }
+    public function chongzhi(){
+        $this->display();
+    }
+    public function tiqian(){
+        $this->display();
+    }
+    public function zuhuxinxi(){
+        $this->display();
+    }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
